@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number 🔮</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+        <div class="marcador">
+            <h3 id="intentos">Attempts: 10</h3>
+            <h3 id="highscore">Highcore: </h3>
+        </div>
+
+        <div id="texto" class="espaciado">
+            <h1>Guess the Number 🔮</h1>
+            <p class="colorAmarillo"></p>
+            <p id="mensaje">asd</p>
+            <p id="listaDeNumeros"></p>
+        </div>
+
+        <div id="entradas" class="espaciado">
+            <input id="input" type="number" min="1" max="20">
+            <button onclick="jugada()">Send</button>
+        </div>
+        <button onclick="jugarDeNuevo()">Play Again</button>
+    </section>
+    <script src="index2.js"></script>
+</body>
+</html>
